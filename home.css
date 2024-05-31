@@ -6,9 +6,9 @@
 	flex-direction: column-reverse;
 	gap: 5rem;
 }
-.hero__left__wrapper {
+/* .hero__left__wrapper {
 	max-width: 350px;
-}
+} */
 .hero__imgWrapper {
 	max-width: 400px;
 	width: 80%;
@@ -19,7 +19,7 @@
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 1.4rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-1);
 }
@@ -37,7 +37,7 @@
 	.hero__wrapper {
 		flex-direction: row;
 		gap: 0;
-	}
+	}	
 	.hero__left {
 		flex: 3;
 	}
@@ -45,15 +45,18 @@
 		flex: 4;
 	}
 	.hero__heading {
-		font-size: 3.6rem;
+		font-size: 2.6rem;
 		margin-bottom: 2rem;
 		text-align: left;
 	}
 
 	.hero__info {
-		margin-bottom: 2rem;
+		/* margin-bottom: 2rem; */
 		text-align: left;
 		font-size: 1.8rem;
+	}
+	.mgb_5{
+		margin-bottom: 12px !important;
 	}
 
 	.button__wrapper {
@@ -138,7 +141,7 @@
 		padding-top: 15rem;
 	}
 	#ourSpecials .container {
-		max-width: 900px;
+		max-width: 1200px;
 	}
 	.ourSpecials__wrapper {
 		flex-direction: row;
@@ -653,3 +656,4 @@
 	font-size:xx-large;
 }
 /* End Newsletter Section */
+
