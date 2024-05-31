@@ -17,7 +17,7 @@
 }
 .nav__list .nav__link {
 	font-size: 1.8rem;
-	font-family: Poppins;
+	font-family: poppins;
 	color: var(--black-2);
 	padding: 0.5rem;
 }
@@ -91,7 +91,7 @@
 /* Global Button Styles */
 .btn {
 	color: var(--green-1);
-	font-family: Poppins;
+	font-family: poppins;
 	font-weight: 500;
 	border-radius: 8px;
 	font-size: 1.4rem;
@@ -131,7 +131,7 @@
 }
 .storeInfo__title {
 	font-size: 1.4rem;
-	font-family: Poppins;
+	font-family: poppins;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
 	color: var(--black-1);
@@ -356,7 +356,7 @@ footer {
 }
 .form__group label {
 	font-size: 1.6rem;
-	font-family: Poppins;
+	font-family: poppins;
 	color: var(--black-2);
 	font-weight: 500;
 }

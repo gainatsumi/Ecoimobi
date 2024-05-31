@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./globalStyles.css">
   <link rel="stylesheet" href="./components.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
   <!-- aos library css  -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Add your custom css -->
@@ -99,13 +101,14 @@
   </section>
   <!-- End Store Info Section -->
   <!-- Contact Form Section -->
+
   <section id="form" data-aos="fade-down">
     <div class="container">
       <h3 class="form__title">
         Contact & Inquiry
       </h3>
       <div class="form__wrapper">
-        <form name="contact" method="POST" netlify>
+        <!-- <form name="contact" method="POST" netlify>
           <div class="form__group">
             <label for="firstName">First Name</label>
             <input type="text" id="firstName" name="First Name" required>
@@ -127,10 +130,68 @@
             <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
           </div>
           <button type="submit" class="btn primary-btn">Send</button>
+        </form> -->
+        <form  action="#" name="contact" method="POST" netlify>
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="First Name" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="Phone Number" required>
+          </div>
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" required>
+          </div>
+          <div class="form__group form__group__full">
+            <label for="message">Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send</button>
         </form>
+
+        <!-- <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <div class="error-txt">Full Name can't be blank</div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                    <div class="error-txt email" >Email Address can't be blank</div>
+                    
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
+                    <div class="error-txt">Phone Number can't be blank</div>
+                
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Subject " id="subject" class="item" autocomplete="off">
+                    <div class="error-txt">Subject can't be blank</div>
+                
+                </div>
+            </div>
+
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" 
+                class="item" autocomplete="off"></textarea>
+                <div class="error-txt">Message can't be blank</div>
+            </div>
+            <button type="submit">Send Message</button>
+        </form> -->
       </div>
     </div>
   </section>
+  
+
   <!-- End Contact Form Section-->
   <!-- Footer -->
   <footer>
@@ -251,7 +312,10 @@
 
   <!-- aos script -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- custom script -->
+  <script src="script.js"></script>
   <script src="./main.js"></script>
 </body>
 
