@@ -18,11 +18,13 @@
 .nav__list .nav__link {
 	font-size: 1.8rem;
 	font-family: Montserrat;
-	color: var(--black-2);
+	/* color: var(--black-2); */
+	color: #ad0101 ;
 	padding: 0.5rem;
 }
 .nav__list li:hover .nav__link {
-	color: var(--green-1);
+	/* color: var(--green-1); */
+	color: inherit;
 }
 @media only screen and (max-width: 768px) {
 	.nav {
@@ -237,9 +239,10 @@
 
 /* Footer Styles */
 footer {
-	background: var(--lightGreen-1);
+	/* background: var(--lightGreen-1); */
 	padding-top: 5rem;
 	padding-bottom: 2rem;
+	background: #353535;
 }
 .footer__wrapper {
 	display: flex;
@@ -249,16 +252,22 @@ footer {
 .footer__logo {
 	width: 150px;
 	margin-bottom: 2rem;
+
+	filter: brightness(0) invert(1);
 }
 .footer__desc {
 	font-size: 1.4rem;
 	color: var(--black-2);
 	margin-bottom: 2rem;
+	color: #eee;
 }
 .footer__socials__title {
 	font-size: 1.8rem;
 	color: var(--black-1);
 	margin-bottom: 1rem;
+
+	color: #EEEEEE;
+    font-weight: 700;
 }
 .footer__socials li {
 	display: inline-block;
@@ -277,20 +286,22 @@ footer {
 .footer__text__title {
 	font-size: 1.8rem;
 	margin-bottom: 1rem;
-	color: var(--black-1);
-	font-weight: 600;
+	/* color: var(--black-1); */
+	color: #eee;
+	font-weight: 700;
 }
 .footer__text a {
 	font-size: 1.4rem;
 	margin-bottom: 0.5rem;
-	color: var(--black-2);
+	/* color: var(--black-2); */
+	color: #eee;
 	font-family: Montserrat;
 	font-weight: 500;
 	line-height: 1.4em;
 }
 @media only screen and (min-width: 768px) {
 	footer {
-		padding-top: 8rem;
+		padding-top: 5rem;
 		padding-bottom: 4rem;
 	}
 	.footer__wrapper {
@@ -305,7 +316,7 @@ footer {
 		flex: 2;
 	}
 	.footer__desc {
-		max-width: 300px;
+		/* max-width: 300px; */
 		font-size: 1.8rem;
 		margin-bottom: 2.5rem;
 	}
@@ -407,4 +418,12 @@ footer {
 		padding: 2rem;
 		margin-top: 1.5rem;
 	}
+}
+
+.logo_footer{
+	width: 200px !important;
+	padding-bottom: 10px;
+}
+.f_bold{
+	font-weight: 500;
 }

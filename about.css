@@ -58,7 +58,7 @@
 .ourGoals__imgs__wrapper {
 	max-width: 800px;
 	margin: 0 auto;
-	display: grid;
+	/* display: grid; */
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
 	grid-row: auto;
