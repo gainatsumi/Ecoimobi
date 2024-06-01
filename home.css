@@ -15,7 +15,7 @@
 	margin: 0 auto;
 }
 .hero__heading {
-	font-family: poppins;
+	font-family: Montserrat;
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
@@ -409,7 +409,7 @@
 	text-align: center;
 }
 .whyUs__title {
-	font-family: poppins;
+	font-family: Montserrat;
 	font-size: 1.8rem;
 	color: var(--black-1);
 	font-weight: 500;
@@ -437,7 +437,7 @@
 	margin-bottom: 1rem;
 }
 .whyUs__item__text {
-	font-family: poppins;
+	font-family: Montserrat;
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: var(--black-1);
@@ -518,7 +518,7 @@
 }
 .testimonial__item__name {
 	font-size: 1.4rem;
-	font-family: poppins;
+	font-family: Montserrat;
 	margin-bottom: 1rem;
 }
 .testimonial__item__stars {
