@@ -27,12 +27,25 @@ section {
 	width: 90%;
 	margin: 0 auto;
 }
+.mrt-40{
+	margin-top: 40px;
+}
+.ml-20{
+	margin-left: 40px;
+}
+.mrb-60{
+	margin-bottom: 60px;
+}
 :root {
 	--green-1: #26643b;
+	/* --green-1: #fff; */
 	--green-2: #a2de96;
+	/* --green-2: #fff; */
 	--red-1:  inherit;
 	--lightGreen-1: #d6e5d8;
-	--lightGreen-2: #f5fcf4;
+	--lightGreen-2: #f5fcf4; 
+	/* --lightGreen-1: #fff; */
+	/* --lightGreen-2: #fff; */
 	--black-1: #3b413a;
 	--black-2: #3f3c3c;
 	--black-3: #5b6359;

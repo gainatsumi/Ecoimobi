@@ -37,11 +37,11 @@
 		font-size: 3.6rem;
 	}
 	.ourStory__subtitle {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.ourStory__text,
 	.ourGoals__text {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		max-width: 800px;
 	}
 }
